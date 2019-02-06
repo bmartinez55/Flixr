@@ -10,6 +10,7 @@
 		1865D95D40FAF1764590D92F /* Pods_FlixrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E23AC87D5BD0DE9B02C3DE7 /* Pods_FlixrTests.framework */; };
 		4E46BC25553D79D379E18911 /* Pods_Flixr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE732EC0AC3F77DF27EB69F5 /* Pods_Flixr.framework */; };
 		979373302FF00DCCF0B9D61C /* Pods_FlixrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B4745675A7AA56544E7BC9 /* Pods_FlixrUITests.framework */; };
+		F66FBB85220ABF3F003E9140 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBB84220ABF3F003E9140 /* MovieDetailsViewController.swift */; };
 		F6AD553F2206235300BEF7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD553E2206235300BEF7CF /* AppDelegate.swift */; };
 		F6AD55442206235300BEF7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AD55422206235300BEF7CF /* Main.storyboard */; };
 		F6AD55462206235500BEF7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AD55452206235500BEF7CF /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		BC5191BF4E818F65A38B75AD /* Pods-FlixrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixrUITests/Pods-FlixrUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C0B4745675A7AA56544E7BC9 /* Pods_FlixrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE732EC0AC3F77DF27EB69F5 /* Pods_Flixr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flixr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66FBB84220ABF3F003E9140 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		F6AD553B2206235300BEF7CF /* Flixr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AD553E2206235300BEF7CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6AD55432206235300BEF7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				F6AD5570220632A900BEF7CF /* MoviesCell.swift */,
 				F6AD553E2206235300BEF7CF /* AppDelegate.swift */,
 				F6AD55422206235300BEF7CF /* Main.storyboard */,
+				F66FBB84220ABF3F003E9140 /* MovieDetailsViewController.swift */,
 				F6AD556C2206287E00BEF7CF /* MoviesViewController.swift */,
 				F6AD55452206235500BEF7CF /* Assets.xcassets */,
 				F6AD55472206235500BEF7CF /* LaunchScreen.storyboard */,
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66FBB85220ABF3F003E9140 /* MovieDetailsViewController.swift in Sources */,
 				F6AD553F2206235300BEF7CF /* AppDelegate.swift in Sources */,
 				F6AD5571220632A900BEF7CF /* MoviesCell.swift in Sources */,
 				F6AD556D2206287E00BEF7CF /* MoviesViewController.swift in Sources */,

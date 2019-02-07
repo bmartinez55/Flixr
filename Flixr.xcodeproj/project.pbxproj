@@ -19,6 +19,7 @@
 		F6AD555F2206235500BEF7CF /* FlixrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD555E2206235500BEF7CF /* FlixrUITests.swift */; };
 		F6AD556D2206287E00BEF7CF /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD556C2206287E00BEF7CF /* MoviesViewController.swift */; };
 		F6AD5571220632A900BEF7CF /* MoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD5570220632A900BEF7CF /* MoviesCell.swift */; };
+		F6BC1449220C0C95007F3788 /* MovieGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BC1448220C0C95007F3788 /* MovieGalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		F6AD55602206235500BEF7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6AD556C2206287E00BEF7CF /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		F6AD5570220632A900BEF7CF /* MoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCell.swift; sourceTree = "<group>"; };
+		F6BC1448220C0C95007F3788 /* MovieGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGalleryViewController.swift; sourceTree = "<group>"; };
 		F6F65005E58A9E6C48BC3B42 /* Pods-Flixr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flixr/Pods-Flixr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 				F6AD5570220632A900BEF7CF /* MoviesCell.swift */,
 				F6AD553E2206235300BEF7CF /* AppDelegate.swift */,
 				F6AD55422206235300BEF7CF /* Main.storyboard */,
+				F6BC1448220C0C95007F3788 /* MovieGalleryViewController.swift */,
 				F66FBB84220ABF3F003E9140 /* MovieDetailsViewController.swift */,
 				F6AD556C2206287E00BEF7CF /* MoviesViewController.swift */,
 				F6AD55452206235500BEF7CF /* Assets.xcassets */,
@@ -402,6 +405,7 @@
 				F66FBB85220ABF3F003E9140 /* MovieDetailsViewController.swift in Sources */,
 				F6AD553F2206235300BEF7CF /* AppDelegate.swift in Sources */,
 				F6AD5571220632A900BEF7CF /* MoviesCell.swift in Sources */,
+				F6BC1449220C0C95007F3788 /* MovieGalleryViewController.swift in Sources */,
 				F6AD556D2206287E00BEF7CF /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

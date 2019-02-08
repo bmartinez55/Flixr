@@ -17,7 +17,7 @@ Flixr is an app that allows users to browse movies from the [The Movie Database 
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+For the most part the most challenging thing for me is the sequence of steps when connecting a network to a view.
 
 ---
 

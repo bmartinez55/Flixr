@@ -14,7 +14,7 @@ Flixr is an app that allows users to browse movies from the [The Movie Database 
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
-<img src="http://g.recordit.co/FyCrxeeQh3.gif" width=250><br>
+<img src="http://g.recordit.co/7x7GSzbWtz.gif" width=250><br>
 
 ### Notes
 For the most part the most challenging thing for me is the sequence of steps when connecting a network to a view.

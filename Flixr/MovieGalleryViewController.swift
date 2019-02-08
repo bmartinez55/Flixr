@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import AlamofireImage
 
-class MovieGalleryViewController: UIViewController {
-
+class MovieGalleryViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
+    @IBOutlet weak var collectionView: UICollectionView!
     var movies = [[String:Any]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        collectionView.delegate = self
+        collectionView.dataSource = self
         
         // Do any additional setup after loading the view.
         let url = URL(string: "https://api.themoviedb.org/3/movie/297762/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
@@ -31,11 +35,27 @@ class MovieGalleryViewController: UIViewController {
                 // TODO: Reload your table view data
                 
                 self.movies = dataDictionary["results"] as! [[String:Any]]
+                self.collectionView.reloadData()
                 print(self.movies)
                 //self.tableView.reloadData()
             }
         }
         task.resume()
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return movies.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MovieGalleryCell", for: indexPath) as! MovieGalleryCell
+        let movie = movies[indexPath.item]
+        let baseUrl = "https://image.tmdb.org/t/p/w185"
+        let posterPath = movie["poster_path"] as! String
+        let posterUrl = URL(string: baseUrl + posterPath)
+        
+        cell.posterView.af_setImage(withURL: posterUrl!)
+        
+        return cell
     }
     
 
